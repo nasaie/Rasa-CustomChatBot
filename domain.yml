@@ -1,0 +1,112 @@
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - ask_account_choices
+  - faq_account1
+  - faq_account2
+  - faq_account3
+  - faq_account4
+  - ask_internal_tax_choices
+  - faq_internal_tax1
+  - faq_internal_tax2
+  - faq_internal_tax3
+  - faq_internal_tax4
+  - faq_internal_tax5
+  - faq_internal_tax6
+  - faq_internal_tax7
+  - faq_internal_tax8
+  - faq_internal_tax9
+  - faq_internal_tax10
+  - faq_internal_tax11
+
+actions:
+  - action_account1
+  - action_account2
+  - action_account3
+  - action_account4
+  - action_internal_tax1
+  - action_internal_tax2
+  - action_internal_tax3
+  - action_internal_tax4
+  - action_internal_tax5
+  - action_internal_tax6
+  - action_internal_tax7
+  - action_internal_tax8
+  - action_internal_tax9
+  - action_internal_tax10
+  - action_internal_tax11
+
+responses:
+  utter_greet:
+  - text: "Hai! I am CustomBot"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_ask_choices:
+  - text: "How may I help you?"
+    buttons:
+      - title: "Account"
+        payload: /ask_account_choices
+      - title: "Internal Tax"
+        payload: /ask_internal_tax_choices
+
+  utter_account_choices:
+  - text: "Please choose your selection:"
+    buttons:
+      - title: "Basic infrastructure revenue collection"
+        payload: /faq_account1
+      - title: "Kewangan 248/249"
+        payload: /faq_account2
+      - title: "Debit advice"
+        payload: /faq_account3
+      - title: "Documents Penyata Pemungut"
+        payload: /faq_account4
+  
+  utter_internal_tax_choices:
+  - text: "Please choose your selection:"
+    buttons:
+      - title: "Define excise duty"
+        payload: /faq_internal_tax1
+      - title: "Goods for excise duty"
+        payload: /faq_internal_tax2
+      - title: "Goods require excise license"
+        payload: /faq_internal_tax3
+      - title: "Steps to apply excise license"
+        payload: /faq_internal_tax4
+      - title: "Cigarettes not contraband"
+        payload: /faq_internal_tax5
+      - title: "Alcohol not contraband"
+        payload: /faq_internal_tax6
+      - title: "Steps to clear goods from Port"
+        payload: /faq_internal_tax7
+      - title: "Steps to move goods from factory to warehouse/Free Zones"
+        payload: /faq_internal_tax8
+      - title: "Steps to move goods from factory to Sabah/Sarawak"
+        payload: /faq_internal_tax9
+      - title: "Maximum period deferred payment excise duty"
+        payload: /faq_internal_tax10
+      - title: "Eligibility for excise duty exemption"
+        payload: /faq_internal_tax11
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
