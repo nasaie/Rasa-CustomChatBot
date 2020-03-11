@@ -71,3 +71,21 @@
   - action_internal_tax10
 * faq_internal_tax11
   - action_internal_tax11
+
+## New Story
+
+* faq_internal_tax2
+    - action_internal_tax2
+
+## New Story
+
+* greet
+    - utter_greet
+    - utter_iamabot
+    - utter_ask_choices
+* ask_internal_tax_choices
+    - utter_internal_tax_choices
+* faq_internal_tax5
+    - action_internal_tax5
+* faq_internal_tax6
+    - action_internal_tax6
