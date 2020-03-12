@@ -27,6 +27,7 @@
 - no way
 - not really
 - why?
+- why
 
 ## intent:mood_great
 - perfect
@@ -59,10 +60,12 @@
 ## intent:ask_account_choices
 - How may I help you?
 - What information that you need?
+- /ask_account_choices
 
 ## intent:faq_account1
 - What are the basic infrastructures for revenue collection?
 - basic infrastructures for revenue?
+- /faq_account1
 
 ## intent:faq_account2
 - What is Kewangan 248 and what is Kewangan 249?
