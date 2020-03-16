@@ -165,6 +165,12 @@
 ## intent:ask_choices
 - utter_ask_choices
 
+## intent:utter_ask_choices
+- topic faq
+- category faq
+- category
+- topic
+
 ## synonym: kewmann-1000
 - items
 - good
