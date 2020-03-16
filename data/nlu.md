@@ -9,6 +9,8 @@
 - Good morning
 - evening
 - Hello
+- assalamualaikum
+- Assalamualaikum
 
 ## intent:goodbye
 - bye
@@ -63,6 +65,7 @@
 - are you a human?
 - am I talking to a bot?
 - am I talking to a human?
+- Who are you?
 
 ## intent:ask_account_choices
 - How may I help you?
@@ -72,6 +75,11 @@
 - ask_account_choices
 - can i know about account?
 - account
+- account topic
+- topic account
+- info on account
+- Tell me about account
+- Can you tell me about account?
 
 ## intent:faq_account1
 - What are the basic infrastructures for revenue collection?
@@ -104,6 +112,11 @@
 - ask_internal_tax_choices
 - May I know more on Internal Tax?
 - internal tax
+- topic internal tax
+- internal tax topic
+- info on internal tax
+- Tell me about internal tax
+- Can you tell me about internal tax?
 
 ## intent:faq_internal_tax1
 - What is the excise duty?
@@ -171,34 +184,39 @@
 - category
 - topic
 
+## intent:utter_not_clear
+- How?
+- When?
+- can you tell me
+
 ## synonym: kewmann-1000
-- items
-- good
-- item
 - goods
+- good
+- items
+- item
 
 ## synonym: kewmann-1001
 - manufactured
-- produce
 - make
 - manufacturing
+- produce
 
 ## synonym: kewmann-1002
-- tobacco
 - cigarettes
+- tobacco
 - cigarete
 - cigarette
 - tobaco
 
 ## synonym: kewmann-1003
 - liquor
-- alcohol
-- alcohols
 - todi
+- alcohol
 - liquors
+- alcohols
 
 ## synonym: kewmann-1004
-- periods
-- period
 - years
 - year
+- period
+- periods
