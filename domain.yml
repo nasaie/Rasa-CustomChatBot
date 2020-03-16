@@ -1,5 +1,5 @@
 session_config:
-  session_expiration_time: 60.0
+  session_expiration_time: 60
   carry_over_slots_to_new_session: true
 intents:
 - greet
@@ -27,6 +27,8 @@ intents:
 - faq_internal_tax10
 - faq_internal_tax11
 - ask_choices
+- utter_ask_choices
+- utter_goodbye
 responses:
   utter_greet:
   - text: Hai! I am CustomBot. I am a bot, powered by Rasa.
@@ -118,6 +120,5 @@ actions:
 - utter_ask_choices
 - utter_account_choices
 - utter_internal_tax_choices
-- utter_goodbye -->
 - utter_not_clear
 - utter_continue
