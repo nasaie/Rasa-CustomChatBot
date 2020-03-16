@@ -26,6 +26,7 @@ intents:
 - faq_internal_tax9
 - faq_internal_tax10
 - faq_internal_tax11
+- ask_choices
 responses:
   utter_greet:
   - text: Hai! I am CustomBot. I am a bot, powered by Rasa.
@@ -84,14 +85,14 @@ responses:
     - title: Eligibility for excise duty exemption
       payload: /faq_internal_tax11
   utter_not_clear:
-  - text: Sorry. Can you rephrase your message?
+  - text: Sorry. I cannot understand you message.
   utter_continue:
   - text: Is there anything else I can help you?
     buttons:
     - title: Yes
-      payload: utter_ask_choices
+      payload: /utter_ask_choices
     - title: No
-      payload: utter_goodbye
+      payload: /utter_goodbye
 actions:
 - action_account1
 - action_account2

@@ -5,12 +5,17 @@
 - good morning
 - good evening
 - hey there
+- morning
+- Good morning
+- evening
+- Hello
 
 ## intent:goodbye
 - bye
 - goodbye
 - see you around
 - see you later
+- utter_goodbye
 
 ## intent:affirm
 - yes
@@ -28,6 +33,8 @@
 - not really
 - why?
 - why
+- what?
+- who
 
 ## intent:mood_great
 - perfect
@@ -61,21 +68,30 @@
 - How may I help you?
 - What information that you need?
 - /ask_account_choices
+- May I ask on Account?
+- ask_account_choices
+- can i know about account?
+- account
 
 ## intent:faq_account1
 - What are the basic infrastructures for revenue collection?
 - basic infrastructures for revenue?
 - /faq_account1
+- faq_account1
+- action_account1
 
 ## intent:faq_account2
 - What is Kewangan 248 and what is Kewangan 249?
 - Kewangang 248
 - Kewangan 249
+- action_account2
 
 ## intent:faq_account3
 - What is Debit Advice?
 - Define debit advice
 - debit advice
+- What is Debit advice ?
+- faq_account3
 
 ## intent:faq_account4
 - What are the documents needed for a complete set of Penyata Pemungut to be processed?
@@ -85,6 +101,9 @@
 ## intent:ask_internal_tax_choices
 - How may I help you?
 - What information that you need?
+- ask_internal_tax_choices
+- May I know more on Internal Tax?
+- internal tax
 
 ## intent:faq_internal_tax1
 - What is the excise duty?
@@ -116,6 +135,7 @@
 - How can I make sure [liquor] (kewmann-1003) bought is not contraband?
 - How to check [alcohol] (kewmann-1003) not contraband?
 - [Todi] (kewmann-1003) not contraband
+- how about alcohol contraband?
 
 ## intent:faq_internal_tax7
 - How to clear [goods] (kewmann-1000) from Port?
@@ -141,6 +161,9 @@
 - Eligibility for excise duty exemption
 - Excise duty exemption
 - Eligible persons and [goods] (kewmann-1000) for exemption
+
+## intent:ask_choices
+- utter_ask_choices
 
 ## synonym: kewmann-1000
 - items
