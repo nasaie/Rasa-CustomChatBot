@@ -15,15 +15,6 @@
 * affirm
   - utter_happy
 
-## sad path 2
-* greet
-  - utter_greet
-* mood_unhappy
-  - utter_cheer_up
-  - utter_did_that_help
-* deny
-  - utter_goodbye -->
-
 ## say goodbye
 * goodbye
   - utter_goodbye
@@ -121,7 +112,7 @@
   - utter_not_clear
   - utter_continue
 
-## New Story
+## Additional
 
     - utter_continue
 * utter_ask_choices
