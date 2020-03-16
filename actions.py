@@ -10,8 +10,9 @@
 from typing import Any, Text, Dict, List
 
 from rasa_sdk import Action, Tracker
+from rasa_sdk.events import SlotSet, SessionStarted, ActionExecuted, EventType
 from rasa_sdk.executor import CollectingDispatcher
-
+# from rasa_platform.core.tracker_store import InMemoryTrackerStore
 
 class ActionAccount1(Action):
 
